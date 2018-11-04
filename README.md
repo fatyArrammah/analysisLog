@@ -1,9 +1,9 @@
 # Logs Analysis Project
----
+
   This project represents an internal reporting tool built into a newspaper site to discover what kind of articles the site's readers like. This tool analyzes user logs using the site database which has both articles information as well as user log information. 
 
 ## Getting Started
----
+
  ### Prerequisites
   This program requires pre-installed database on linux VM. This database includes articles and user log tables.
   ##### Software Installation 
@@ -12,7 +12,7 @@
   - Install latest version of [Virtual Machine](https://www.virtualbox.org/wiki/Downloads)
   - download [FSDN virtual machine](https://github.com/udacity/fullstack-nanodegree-vm)
   -  if your system is running on **windows OS** , you need to use a **_Git bash_** terminal 
----
+
 ### Software Running
 - ##### Software and data setup
     
@@ -24,7 +24,7 @@
         vagrant up
         vagrant ssh
         ```
-    + Download [this project](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) into **/vagrant** directory (This project includes both python code and "news" database), then unzip this folder
+    + Download [this project](https://github.com/fatyArrammah/analysisLog) into **/vagrant** directory (This project includes both python code and "news" database), then unzip this folder
     + Load "news" database by running the following using **_Git bash_**
         ```
         psql -d news -f newsdata.sql
@@ -44,7 +44,7 @@
         ```
         python3 logAnalysis.py
         ```
----
+
 ### System Output
 The python file **logAnalysis.py** treats the database tabls to answer the following questions:
 - What are the most popular three articles of all time?
@@ -57,9 +57,9 @@ SELECT column_name FROM table_name Where condition_of_rows_filter
 ```
 There are other clauses used within **_SQL_** query to catch more informative and accurate results 
 
----
+
 ## Author
 + Fatima Al-Rammah - all work - **_[fatyArrammah](https://github.com/fatyArrammah)_**
----
+
 
 
