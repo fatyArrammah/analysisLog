@@ -1,0 +1,20 @@
+Hello....
+The result of news website log analysis .. 
+====================================================
+1) The most popular three articles: 
+
+* "Candidate is jerk, alleges rival" -- 342102 views
+* "Bears love berries, alleges bear" -- 256365 views
+* "Bad things gone, say good people" -- 171762 views
+====================================================
+2) The most popular authors: 
+
+* Ursula La Multa -- 512805 views 
+* Rudolf von Treppenwitz -- 427781 views 
+* Anonymous Contributor -- 171762 views 
+* Markoff Chaney -- 85387 views 
+====================================================
+3) The day/s has more than 1% request error:   
+
+ July 17, 2016 -- 2.26% errors 
+====================================================
