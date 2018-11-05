@@ -1,6 +1,6 @@
 # Logs Analysis Project
 
-  This project represents an internal reporting tool built into a newspaper site to discover what kind of articles the site's readers like. This tool analyzes user logs using the site database which has both articles information as well as user log information. 
+   This project represents an internal reporting tool built into a newspaper site to analyze users' logs. 
 
 ## Getting Started
 
