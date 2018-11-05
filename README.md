@@ -24,7 +24,7 @@
         vagrant up
         vagrant ssh
         ```
-    + Download [this project](https://github.com/fatyArrammah/analysisLog) into **/vagrant** directory (This project includes both python code and "news" database), then unzip this folder
+    + Download [this project]($ git clone https://github.com/fatyArrammah/analysisLog) into **/vagrant** directory (This project includes both python code and "news" database), then unzip this folder
     + Load "news" database by running the following using **_Git bash_**
         ```
         psql -d news -f newsdata.sql
