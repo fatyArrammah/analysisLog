@@ -26,7 +26,7 @@
         ```
     + Download [this project](https://github.com/fatyArrammah/analysisLog.git) into **/vagrant** directory , then unzip this folder
     + Download [newsdata.zip](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip), then also unzip this folder
-    + Save all files (newsdata.sql and logAnalysis.py) in **/vagrant** directory
+    + Save all files (**newsdata.sql** and **logAnalysis.py**) in **/vagrant** directory
     + Load "news" database by running the following using **_Git bash_**
         ```
         psql -d news -f newsdata.sql
